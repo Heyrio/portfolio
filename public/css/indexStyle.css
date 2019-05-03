@@ -193,7 +193,6 @@ li{
 /* Contact */
 
 #contact {
-
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	font-size: 1em;
 	margin-bottom: 3%;
@@ -232,6 +231,12 @@ li{
 }
 
 
+#connect{
+	padding-top: 2%;
+	margin-top: 8%;
+	color: purple;
+
+}
 
 .purpCls {
 	padding-left: 5px;
@@ -261,3 +266,13 @@ textarea {
         width: auto;
     } 
       }
+
+      .bgpurp{
+        background-color: #A368BF;
+    }
+    
+
+    footer{
+        color: white;
+    }
+
