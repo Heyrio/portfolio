@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.mainBox{
+    height: 100vh;
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+li{
+    margin-right: 25px;
+}
+
+
+.title{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.title > h1 {
+    font-size: 7em;
+    font-weight: 500;
+    
+}
+
+.fa-angle-down{
+    color: white;
+}
+
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+.title > h1 {
+    font-size: 6em;
+    font-weight: 500;
+    
+}
+.arrow{
+    margin-top: 50px;
+}
+
+
+  }
+
+  @media only screen and (max-width: 950px) {
+    
+    .title > h1 {
+        font-size: 6em;
+        font-weight: 500;
+        
+    }
+    .arrow{
+        margin-top: 70px;
+    }
+    
+    
+      }
+
+  .mini > a{
+      color: rgba(0, 0, 0, 0.5);
+      margin-right: 20px;
+  }
