@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .mainBox{
     height: 100vh;
@@ -127,3 +130,44 @@ li{
       color: rgba(0, 0, 0, 0.5);
       margin-right: 20px;
   }
+
+  .container > h1{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      color: purple;
+      font-weight: 700;
+  }
+
+.me{
+    background-image: url('../images/me.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 700px;
+    box-shadow: 5px 10px 8px #888888
+}
+
+.bio{
+    padding: 30px;
+    font-size: 1.2em;
+}
+
+
+.purp{
+    color: purple;
+}
+
+
+.my-projects{
+    margin-top: 50px;
+    background-color: #9d6abf;
+    height: 100vh;
+}
+
+.my-projects > h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
